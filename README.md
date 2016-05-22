@@ -518,7 +518,7 @@ The status bar allows users to see the connection, current time, and battery.
 - **carrier** *String* <br> Carrier name ex. Verizon/Orange/FramerJS
 - **network** *String* <br> network strength ex. 3G/LTE. Only will be showed when a carrier is set. By default, this is set to the wifi icon. Upon setting carrier, this will be set to LTE. 
 - **battery** *Integer* <br> Battery percentage - this will change the battery icon
-- **signal** *Integer(0 - 5)* <br> Changes number of filled/unfilled dots. Zero will set the singal to "No Network"
+- **signal** *Integer(0 - 5)* <br> Changes number of filled/unfilled dots. Zero will set the signal to "No Network"
 - **style** *String* <br> Dark is black text. Light is white text.  
 - **clock24** *Boolean* <br> By default, it's set to false, so it's a 12 hour clock with AM/PM. When set to true, the clock will cycle through 0-23 hours and removes AM/PM. 
 
